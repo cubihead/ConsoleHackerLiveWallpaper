@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/settings"
+        android:key="consolewallpaper_settings">
+
+    <ListPreference
+            android:key="speed"
+            android:title="@string/settings_title"
+            android:summary="@string/settings_summary"
+            android:entries="@array/speednames"
+            android:entryValues="@array/speedprefix" />
+
+</PreferenceScreen>
